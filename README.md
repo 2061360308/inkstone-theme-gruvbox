@@ -3,7 +3,7 @@
 
 这是一个砚台（Inkstone）的示例主题（[https://github.com/2061360308/InkStone-Markdown/](https://github.com/2061360308/InkStone-Markdown)）
 
-> 砚台的主题功能还处于开发阶段，截至目前`V0.3.2`版本还为提供该功能，你可以在仓库的develop分支找到支持此功能的最新开发版本（develop分支被部署在[https://dev.inkstone.work](https://dev.inkstone.work)）
+> 砚台的主题功能还处于开发阶段，截至目前`V0.3.2`版本还未提供该功能，你可以在仓库的develop分支找到支持此功能的最新开发版本（develop分支被部署在[https://dev.inkstone.work](https://dev.inkstone.work)）
 
 ## 主题使用
 
