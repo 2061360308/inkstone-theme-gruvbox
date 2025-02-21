@@ -1,0 +1,11 @@
+{
+  "name": "gruvbox",
+  "version": "1.0.0",
+  "author": "盧瞳",
+  "url": "url",
+  "mainCss": "theme.css",
+  "highlightTheme": "base16/gruvbox-light-soft",
+  "highlightDarkTheme": "base16/gruvbox-dark-soft",
+  "codeMirrorTheme": "light.js",
+  "codeMirrorDarkTheme": "dark.js"
+}

@@ -1,0 +1,162 @@
+:root {
+    --app-theme-red: #9d0006;
+    --app-theme-green: #79740e;
+    --app-theme-yellow: #b57614;
+    --app-theme-blue: #076678;
+    --app-theme-purple: #8f3f71;
+    --app-theme-aqua: #427b58;
+    --app-theme-orange: #af3a03;
+    --app-theme-gray: #928374;
+
+    --app-theme-bg1: #ebdbb2;
+    --app-theme-bg2: #d5c4a1;
+    --app-theme-bg3: #bdae93;
+    --app-theme-bg4: #a89984;
+
+    --app-theme-fg: #282828;
+    --app-theme-fg1: #3c3836;
+    --app-theme-fg2: #504945;
+    --app-theme-fg3: #665c54;
+    --app-theme-fg4: #7c6764;
+}
+
+html.dark {
+    --app-theme-red: #fb4934;
+    --app-theme-green: #b8bb26;
+    --app-theme-yellow: #fabd2f;
+    --app-theme-blue: #83a598;
+    --app-theme-purple: #d3869b;
+    --app-theme-aqua: #8ec07c;
+    --app-theme-orange: #fe8019;
+    --app-theme-gray: #928374;
+
+    --app-theme-bg1: #3c3836;
+    --app-theme-bg2: #504945;
+    --app-theme-bg3: #665c54;
+    --app-theme-bg4: #7c6764;
+
+    --app-theme-fg: #fbf1c7;
+    --app-theme-fg1: #ebdbb2;
+    --app-theme-fg2: #d5c4a1;
+    --app-theme-fg3: #bdae93;
+    --app-theme-fg4: #a89984;
+}
+
+:root,
+html.dark {
+    --app-titlebar-color: var(--app-theme-bg4);
+    --el-bg-color: var(--app-theme-bg1);
+
+    --el-text-color-primary: var(--app-theme-fg);
+
+    --el-color-primary: var(--app-theme-blue);
+    --el-color-primary-light-3: #9ab5ab;
+    --el-color-primary-light-5: #b0c6bd;
+    --el-color-primary-light-7: #c7d6d0;
+    --el-color-primary-light-8: #d2deda;
+    --el-color-primary-light-9: #dde6e3;
+    --el-color-primary-dark-2: #536961;
+
+    --el-color-success: var(--app-theme-green);
+    --el-color-success-light-3: #c5c74d;
+    --el-color-success-light-5: #d2d475;
+    --el-color-success-light-7: #dfe09c;
+    --el-color-success-light-8: #e5e6b0;
+    --el-color-success-light-9: #ececc4;
+    --el-color-success-dark-2: #757718;
+
+    --el-color-warning: var(--app-theme-yellow);
+    --el-color-warning-light-3: #fbc955;
+    --el-color-warning-light-5: #fcd57b;
+    --el-color-warning-light-7: #fde1a0;
+    --el-color-warning-light-8: #fde7b3;
+    --el-color-warning-light-9: #feedc6;
+    --el-color-warning-dark-2: #9f781e;
+
+    --el-color-danger: var(--app-theme-red);
+    --el-color-danger-light-3: #fc6a59;
+    --el-color-danger-light-5: #fc8b7e;
+    --el-color-danger-light-7: #fdaca3;
+    --el-color-danger-light-8: #febdb5;
+    --el-color-danger-light-9: #fecdc8;
+    --el-color-danger-dark-2: #a02e21;
+
+    --el-color-error: var(--app-theme-red);
+    --el-color-error-light-3: #fc6a59;
+    --el-color-error-light-5: #fc8b7e;
+    --el-color-error-light-7: #fdaca3;
+    --el-color-error-light-8: #febdb5;
+    --el-color-error-light-9: #fecdc8;
+    --el-color-error-dark-2: #a02e21;
+
+    --el-color-info: var(--app-theme-gray);
+    --el-color-info-light-3: #a69a8d;
+    --el-color-info-light-5: #bab0a7;
+    --el-color-info-light-7: #cdc7c0;
+    --el-color-info-light-8: #d7d2cc;
+    --el-color-info-light-9: #e1ddd9;
+    --el-color-info-dark-2: #5d534a;
+
+    --el-bg-color: var(--app-theme-bg1);
+    --el-bg-color-page: var(--app-theme-bg2);
+    --el-bg-color-overlay: var(--app-theme-bg3);
+    --el-text-color-primary: var(--app-theme-fg);
+    --el-text-color-regular: var(--app-theme-fg1);
+    --el-text-color-secondary: var(--app-theme-fg2);
+    --el-text-color-placeholder: var(--app-theme-fg3);
+    --el-text-color-disabled: var(--app-theme-fg4);
+    --el-border-color: var(--app-theme-bg3);
+    --el-border-color-light: var(--app-theme-bg4);
+    --el-border-color-lighter: var(--app-theme-fg3);
+    --el-border-color-extra-light: var(--app-theme-fg4);
+    --el-border-color-dark: var(--app-theme-bg1);
+    --el-border-color-darker: var(--app-theme-bg);
+    --el-fill-color: var(--app-theme-bg1);
+    --el-fill-color-light: var(--app-theme-bg2);
+    --el-fill-color-lighter: var(--app-theme-bg3);
+    --el-fill-color-extra-light: var(--app-theme-bg4);
+    --el-fill-color-dark: var(--app-theme-bg1);
+    --el-fill-color-darker: var(--app-theme-bg2);
+    --el-fill-color-blank: var(--app-theme-bg);
+}
+
+.vditor,
+html.dark .vditor {
+    --border-color: var(--app-theme-bg1);
+    --second-color: var(--el-text-color-secondary);
+
+    --panel-background-color: var(--el-bg-color);
+    --panel-shadow: 0 1px 2px var(--el-border-color-light);
+
+    --toolbar-background-color: var(--app-theme-bg3);
+    --toolbar-icon-color: var(--app-theme-fg);
+    --toolbar-icon-hover-color: var(--app-theme-blue);
+    --toolbar-height: 35px;
+    --toolbar-divider-margin-top: 8px;
+
+    --textarea-background-color: var(--app-theme-bg1);
+    --textarea-text-color: var(--app-theme-fg);
+
+    --resize-icon-color: var(--toolbar-icon-color);
+    --resize-background-color: var(--toolbar-background-color);
+    --resize-hover-icon-color: var(--panel-background-color);
+    --resize-hover-background-color: var(--toolbar-icon-hover-color);
+
+    --count-background-color: var(--app-theme-bg3);
+    --heading-border-color: var(--app-theme-bg3);
+    --blockquote-color: var(--app-theme-fg2);
+
+    --ir-heading-color: var(--app-theme-purple);
+    --ir-title-color: var(--app-theme-gray);
+    --ir-bi-color: var(--app-theme-blue);
+    --ir-link-color: var(--app-theme-green);
+    --ir-bracket-color: var(--app-theme-blue);
+    --ir-paren-color: var(--app-theme-green);
+
+    --tooltipped-background-color: var(--app-theme-bg4);
+    --tooltipped-color: var(--app-theme-fg);
+
+    --reset-background-color: var(--app-theme-bg1);
+    --reset-table-background-color: var(--app-theme-bg2);
+    --reset-table-border-color: var(--app-theme-bg3);
+}
