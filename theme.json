@@ -2,7 +2,7 @@
   "name": "gruvbox",
   "version": "1.0.0",
   "author": "盧瞳",
-  "url": "url",
+  "url": "https://github.com/2061360308/inkstone-theme-gruvbox",
   "mainCss": "theme.css",
   "highlightTheme": "base16/gruvbox-light-soft",
   "highlightDarkTheme": "base16/gruvbox-dark-soft",
